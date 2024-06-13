@@ -8,7 +8,7 @@ public class Calculator {
         return memory;
     }
 
-    public synchronized void setMemory1(int memory) {
+    public void setMemory1(int memory) {
         System.out.println("Call setMemory1");
         this.memory = memory;
         try {
