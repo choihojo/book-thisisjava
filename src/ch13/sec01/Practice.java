@@ -27,8 +27,13 @@ public class Practice<T> {
         BeverageUtil.sortWithWildcards(new ArrayList<Beverage>());
         BeverageUtil.sortWithWildcards(new ArrayList<Coke>());
 
+        Object[] strArr = new String[10];
+
+        List<String> list2 = new ArrayList<String>();
+        List list3 = new ArrayList();
+
         BeverageUtil.sortWithoutWildcards(new ArrayList<Beverage>());
-        BeverageUtil.sortWithoutWildcards(new ArrayList<Coke>()); // reason: Incompatible equality constraint: Beverage and Coke
+//        BeverageUtil.sortWithoutWildcards(new ArrayList<Coke>()); // reason: Incompatible equality constraint: Beverage and Coke
     }
 
 }
