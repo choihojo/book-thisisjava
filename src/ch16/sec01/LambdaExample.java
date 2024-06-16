@@ -23,9 +23,9 @@ public class LambdaExample {
                 System.out.println("Override: " + x + y);
             }
         });
-        action((x, y) -> {
-            System.out.println("Override: " + x + y);
-        }); // Target type of a lambda conversion must be an interface
+//        action((x, y) -> {
+//            System.out.println("Override: " + x + y);
+//        }); // Target type of a lambda conversion must be an interface
     }
 
 }
