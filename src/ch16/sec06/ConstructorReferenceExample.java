@@ -10,7 +10,7 @@ public class ConstructorReferenceExample {
         System.out.println(m1);
 
         Member m2 = person.getMember2((id, name) -> new Member(id, name));
-//        Member m2 = person.getMember2(Member.new);
+//        Member m2 = person.getMember2(Member::new);
         System.out.println(m2);
     }
 
