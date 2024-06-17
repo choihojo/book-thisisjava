@@ -9,8 +9,9 @@ public class MethodReferenceExample2 {
         Person person = new Person();
         person.ordering((a, b) -> a.compareToIgnoreCase(b));
         person.ordering(String::compareToIgnoreCase);
-        ObjectOutputStream out = new ObjectOutputStream();
-        PrintStream printStream = new PrintStream(ObjectOutputStream out);
+//        ObjectOutputStream out = new ObjectOutputStream();
+//        PrintStream printStream = new PrintStream(ObjectOutputStream out);
+        Integer[] test = new Integer[10];
     }
 
 }
