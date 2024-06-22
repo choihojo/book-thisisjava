@@ -10,11 +10,19 @@ public class ConnectionExample {
         Connection conn = null;
         try {
             // JDBC Driver 등록
-            Class.forName("org.mariadb.jdbc.Driver");
+//            Class.forName("org.mariadb.jdbc.Driver");
 
             conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/thisisjava", "root", "1234");
 
             System.out.println("연결 성공");
+
+//            System.out.println("== 1 ==");
+//            System.out.println(Aclass.a);
+//            System.out.println("== 2 ==");
+//            System.out.println(Aclass.a);
+            Class.forName("ch20.sec05.Aclass");
+            Class.forName("ch20.sec05.Aclass");
+
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
